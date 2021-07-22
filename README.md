@@ -7,7 +7,8 @@ You can use the above link to have a linux style cmd line on your windows system
 The script files will be names things similar to cameraScript.sh. When trying to run the scripts designed to run autonomously they will need to be added to
 the cron table of the device. You can do that with this command:
 
-1. first run this code to open the cron table<pre><code>sudo crontab -e
+1.first run this code to open the cron table
+<pre><code>sudo crontab -e
 </code></pre>
 
 2.it will ask you what editor you want to use any of the selections should be okay
