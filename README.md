@@ -15,7 +15,8 @@ the cron table of the device. You can do that with this command:
 
 The format for cron table commands is this:
 
-* * * * * [filepath to script]
+* * * * * [filepath to script]<pre><code>* * * * * [filepath to script]
+</code></pre>
 
 the stars represent minute, hour, day, month, day of week in that order. The stars need to have spaces inbetween. 
 
