@@ -22,3 +22,4 @@ the stars represent minute, hour, day, month, day of week in that order. The sta
 */5 * * * * /home/pi/cameraScript.sh    is the example used in the proof of concept experiment. The /5 under the first star means every 5 minutes.
 
 To change to a different script change the filepath to be where the script is.
+
