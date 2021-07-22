@@ -15,12 +15,13 @@ the cron table of the device. You can do that with this command:
 
 The format for cron table commands is this:
 
-* * * * * [filepath to script]<pre><code>* * * * * [filepath to script]
+<pre><code>* * * * * [filepath to script]
 </code></pre>
 
 the stars represent minute, hour, day, month, day of week in that order. The stars need to have spaces inbetween. 
 
-*/5 * * * * /home/pi/cameraScript.sh    is the example used in the proof of concept experiment. The /5 under the first star means every 5 minutes.
+<pre><code>*/5 * * * * /home/pi/cameraScript.sh  
+</code></pre>  is the example used in the proof of concept experiment. The /5 under the first star means every 5 minutes.
 
 To change to a different script change the filepath to be where the script is.
 
