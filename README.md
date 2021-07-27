@@ -26,7 +26,7 @@ the stars represent minute, hour, day, month, day of week in that order. The sta
 </code></pre>  is the example used in the proof of concept experiment. The /5 under the first star means every 5 minutes.
 
 To change to a different script change the filepath to be where the script is.
-
-Timelapse code to be run in a file with all the pictures taken in it
+This is the code I used to make the timelapse. I ran it on a personal Raspberry Pi 4b, but it can be done on windows and other tools can be used.
+I put all of the Pics in the same folder and because of the naming scheme they are in order. Then the timelapse code uses the greatest to least pattern.
 <pre><code>ffmpeg -r 15 -f image2 -pattern_type glob -i '2021*.jpg' -s 1920x1080 -vcodec libx264 timelapse.mp4
 </code></pre>
