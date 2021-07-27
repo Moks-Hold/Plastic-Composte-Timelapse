@@ -27,3 +27,7 @@ the stars represent minute, hour, day, month, day of week in that order. The sta
 
 To change to a different script change the filepath to be where the script is.
 
+Timelapse code to be run in a file with all the pictures taken in it
+ffmpeg -r 15 -f image2 -pattern_type glob -i '2021*.jpg' -s 1920x1080 -vcodec libx264 timelapse.mp4
+<pre><code>\ffmpeg -r 15 -f image2 -pattern_type glob -i '2021*.jpg' -s 1920x1080 -vcodec libx264 timelapse.mp4
+</code></pre>
